@@ -2,23 +2,23 @@ package com.example.BuilderDocument.entity;
 
 public class PdfObjectElement implements PdfElement {
 
-    private String type;
+    private TypeElement type;
     private String function;
 
     @Override
     public String getElement() {
-
         return null;
+
     }
 
     public PdfObjectElement() {
     }
 
-    public String getType() {
+    public TypeElement getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(TypeElement type) {
         this.type = type;
     }
 

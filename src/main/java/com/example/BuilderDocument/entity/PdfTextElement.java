@@ -2,7 +2,7 @@ package com.example.BuilderDocument.entity;
 
 public class PdfTextElement implements PdfElement {
 
-    private String type;
+    private TypeElement type;
     private String body;
 
     @Override
@@ -10,11 +10,11 @@ public class PdfTextElement implements PdfElement {
         return body;
     }
 
-    public String getType() {
+    public TypeElement getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(TypeElement type) {
         this.type = type;
     }
 
