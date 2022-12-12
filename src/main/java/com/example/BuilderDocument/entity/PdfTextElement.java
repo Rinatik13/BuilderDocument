@@ -10,6 +10,16 @@ public class PdfTextElement implements PdfElement {
         return body;
     }
 
+    @Override
+    public void setElement(String elementText) {
+
+    }
+
+    @Override
+    public void setFunction(String textFun) {
+
+    }
+
     public TypeElement getType() {
         return type;
     }

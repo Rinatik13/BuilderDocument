@@ -7,8 +7,13 @@ public class PdfObjectElement implements PdfElement {
 
     @Override
     public String getElement() {
-        return null;
+        return function;
 
+    }
+
+    @Override
+    public void setElement(String elementText) {
+        this.function = elementText;
     }
 
     public PdfObjectElement() {

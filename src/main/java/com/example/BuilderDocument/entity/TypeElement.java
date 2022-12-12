@@ -6,11 +6,13 @@ public enum TypeElement {
     CompanyAddress("companyAddress"),
     CompanyMailAddress("CompanyMailAddress"),
     CompanyTelephone("CompanyTelephone"),
-    CompanyInn("CompanyInn");
+    CompanyInn("CompanyInn"),
+    Text("Text");
 
     private String type;
 
     TypeElement(String type) {
         this.type = type;
     }
+
 }
