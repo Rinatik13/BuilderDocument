@@ -7,7 +7,7 @@ public enum TypeElement {
     CompanyMailAddress("CompanyMailAddress"),
     CompanyTelephone("CompanyTelephone"),
     CompanyInn("CompanyInn"),
-    Text("Text");
+    Text("Text"), Table("Table");
 
     private String type;
 
