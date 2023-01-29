@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BuilderDocumentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BuilderDocumentApplication.class, args);;
+		SpringApplication.run(BuilderDocumentApplication.class, args);
 	}
 
 }
